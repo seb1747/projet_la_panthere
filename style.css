@@ -771,20 +771,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #6e2c0d;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #6e2c0d;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #6e2c0d!important;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +797,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    /*changement color pour meilleur contraste accessibilité*/
+    color: #6e2c0d!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #6e2c0d!important;
 }
 
 .icon-dark-slate-blue {
@@ -822,7 +823,11 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+    /*changement format d'image*/
+}
+.socialnetwork p{
+    color: #fff;
 }
 
 @media (max-width: 1024px) {
