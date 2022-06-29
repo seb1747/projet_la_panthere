@@ -2068,6 +2068,10 @@ pre code {
     padding-right: 15px;
     padding-left: 15px
 }
+.col-sm-12 img, .col-xs-12 img, .col-sm-6 img{
+    max-width: 100%;
+    height: 100%;
+}/*creation classe img avec width et height*/
 
 .col-xs-1,
 .col-xs-10,
